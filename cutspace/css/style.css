@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -58,6 +62,8 @@ body {
 .intro-form {
     position: relative;
     overflow: hidden;
+    max-width: 460px;
+    margin-top: 40px;
 }
 
 .btn {
@@ -66,14 +72,18 @@ body {
     color: white;
     font-size: 16px;
     display: inline-block;
-    padding: 16px 37px;
+    padding: 20px 37px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.intro-form {
+.intro-form .btn {
     position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .intro-form-text {
@@ -82,4 +92,69 @@ body {
     font-size: 16px;
     box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
     border-radius: 50px;
+    outline: none;
+    width: 100%;
+    padding: 20px;
 }
+
+/* Урок 11 */
+.product-block {
+    background-image: url(../img/product-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    padding: 90px;
+    border-radius: 20px;
+}
+
+.product-block-img {
+    position: absolute;
+    top: 60px;
+    left: -300px;
+}
+
+.product-block-text {
+    margin-left: 60%;
+}
+.heading {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.experience-sect {
+    position: relative;
+    background-image: url(../img/experiance-bg.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px 0 55px;
+    margin-top: 60px;
+}
+
+.experiance-img {
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+}
+
+.experiance-text {
+    max-width: 360px;
+}
+
+@media (max-width:1024px) {
+    .product-block-img {
+        position: static;
+        margin-left: -30px;
+        max-width: 100%;
+    }
+
+    .product-block {
+        padding: 30px;
+    }
+
+    .product-block-text {
+        margin: 30px 0 0;
+    }
+}
+/* Урок 11 */
