@@ -1,0 +1,82 @@
+:root {
+    --main-color: orangered;
+}
+
+a:active {
+    color: green;
+}
+
+a:hover {
+    color: orange;
+}
+
+a, p {
+    transition: .3s;
+}
+
+a:hover + p {
+    color: blue;
+}
+
+.block:hover * {
+    background-color: lightgray;
+}
+
+.btn {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    border: 2px solid purple;
+}
+
+
+input:checked + span {
+    color: blue;
+}
+
+input::placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+li:first-of-type {
+    color: red;
+}
+
+li:last-of-type {
+    color: yellow;
+}
+
+li:nth-of-type(2) {
+    color: turquoise;
+}
+
+.text {
+    color: var(--main-color);
+}
+
+.pseudo:after {
+    content: ".";
+    color: violet;
+}
+
+.pseudo:before {
+    content: "";
+    background-image: url(https://filearchive.cnews.ru/img/cnews/2021/10/01/interviewdecor.svg);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+ table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+ }

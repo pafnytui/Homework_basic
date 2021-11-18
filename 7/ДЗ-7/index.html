@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Домашнее задание - 7</title>
+</head>
+
+<body>
+  <div class="big-screen">
+  <form class="form-container" action="">
+    <div class="row">
+      <div class="input-tag">
+        <label for="type">Type</label>
+      </div>
+      <div class="form-select">
+        <select class="select-style" name="vehicle-type" id="type">
+          <option value="" disabled selected>Select</option>
+          <option value="Tracktor">Tracktor</option>
+          <option value="Bus">Bus</option>
+          <option value="Bulldozer">Bulldozer</option>
+          <option value="Tramway">Tramway</option>
+        </select>
+      </div>
+      <div class="input-tag">
+        <label for="Sub-type">SubType</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="Sub-type">
+      </div>
+      <div class="input-tag-none">
+        <label for="Specs">Specs</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="Specs">
+      </div>
+      <div class="input-tag-none">
+        <label for="driver">Driver</label>
+      </div>
+      <div class="form-select">
+        <select class="select-style select-noborder style-2" name="driver-type" id="driver">
+          <option value="" disabled selected>Select</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-tag">
+        <label for="number">Vehicle Id Number (VIN)</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="number">
+      </div>
+      <div class="input-tag">
+        <label for="make">Make</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="make">
+      </div>
+      <div class="input-tag">
+        <label for="model">Model</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="model">
+      </div>
+      <div class="data-row">
+        <div class="data-contain">
+          <div class="input-tag">
+            <label for="year">Year</label>
+          </div>
+          <div class="form-input">
+            <input class="form-input-style" type="text" id="year">
+          </div>
+        </div>
+        <div class="data-contain">
+          <div class="input-tag">
+            <label for="gvw">GVW</label>
+          </div>
+          <div class="form-input">
+            <input class="form-input-style" type="text" id="gvw">
+          </div>
+        </div>
+        <div class="data-contain">
+          <div class="input-tag">
+            <label for="unit">Unit</label>
+          </div>
+          <div class="form-select">
+            <select class="select-style" name="" id="unit">
+              <option value="" disabled selected></option>
+              <option value="LBS">LBS</option>
+              <option value="LBA">LBA</option>
+              <option value="LBZ">LBZ</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-tag">
+        <label for="license">License Plate</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="license">
+      </div>
+      <div class="input-tag">
+        <label for="port">Port Pass RFID</label>
+      </div>
+      <div class="form-input container form-input-with-checkbox">
+        <label class="checkbox">
+          <input type="checkbox">
+          <div class="checkmark"></div>
+        </label>
+        <input class="form-input-style" type="text" id="port" placeholder="Type here">
+      </div>
+      <div class="input-tag">
+        <label for="owner">Ownership</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="owner">
+      </div>
+      <div class="input-tag-none">
+        <label for="truck-type">Truck Type</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style" type="text" id="truck-type">
+      </div>
+    </div>
+    <div class="row">
+      <p class="reg">Registration</p>
+      <div class="input-tag margin-tag">
+        <label for="state">State</label>
+      </div>
+      <div class="form-select">
+        <select class="select-style select-bordered" name="" id="state">
+          <option value="" disabled selected>Choose state</option>
+          <option value="Alabama">Alabama</option>
+          <option value="California">California</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Illinois">Illinois</option>
+        </select>
+      </div>
+      <div class="input-tag">
+        <label for="date-1">Date</label>
+      </div>
+      <div class="form-input">
+        <input class="form-input-style data-style" type="date" id="date-1" value="2021-11-12" min="2010-11-12"
+          max="2021-11-12">
+      </div>
+      <div class="data-row">
+        <div class="data-contain-2">
+          <div class="input-tag">
+            <label for="gvw-2">GVW</label>
+          </div>
+          <div class="form-input">
+            <input class="form-input-style" type="text" id="gvw-2">
+          </div>
+        </div>
+        <div class="data-contain-2">
+          <div class="input-tag">
+            <label for="unit-2">Unit</label>
+          </div>
+          <div class="form-input">
+            <input class="form-input-style" type="text" id="unit-2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-margin">
+        <div class="input-tag margin-res">
+          <label for="res">Restriction</label>
+        </div>
+        <div class="form-select">
+          <select class="select-style" name="" id="res">
+            <option value="" disabled selected></option>
+            <option value="hihg">Highway</option>
+            <option value="city">City</option>
+            <option value="str">Street</option>
+          </select>
+        </div>
+        <div class="input-tag">
+          <label for="date-2">Exp. Date</label>
+        </div>
+        <div class="form-input form-input-margin-none">
+          <input class="form-input-style data-style" type="date" id="date-2" value="2021-11-12" min="2010-11-12"
+            max="2021-11-12">
+        </div>
+        <div class="input-tag-none input-tag-none-pad">
+          <label for="doc">Doc. Image</label>
+        </div>
+        <div class="btn-wrapper">
+          <label class="btn" for="doc"></label>
+          <input type="file" name="" id="doc">
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+
+</html>

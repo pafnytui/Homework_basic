@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    background-color: rgba(93, 187, 126,.5);
+    color: #666;
+    padding: 10px 20px 30px 40px;
+    border: 2px solid grey;
+    border-bottom: 4px solid grey;
+    border-radius: 10px 20px 30px 40px;
+    width: 400px;
+    margin: 10px 0px 10px auto;
+}
+.btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: 0 0 20px;
+    text-align: justify;
+    }

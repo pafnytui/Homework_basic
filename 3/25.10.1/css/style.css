@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* --------------------------------------------------------------------- */
+body, input {
+    font-family: "Roboto" , sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+/* --------------------------Правая таблица----------------------------- */
+.reg-form {
+    background-color: rgb(226, 225, 225);
+    width: 32%;
+    height: 700px;
+}
+.reg-from, .reg-form-1 {
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 350px;
+}
+
+.container {
+    border: 2px solid gray;
+    width: 550px;
+    margin-left: 25px;
+}
+
+.massage-field {
+    margin-left: 175px;
+    color: rgb(165, 47, 47);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.form-input-2 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-label, .input-text, .capcha{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.form-label {
+    margin-left: 30px;
+    width: 20%;
+    color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input-text {
+    border: 3px solid rgb(212, 210, 210);
+    border-radius: 30px;
+    padding: 10px;
+    width: 335px;
+}
+
+.input-text-code {
+    border: 3px solid rgb(212, 210, 210);
+    border-radius: 30px;
+    padding: 10px;
+    width: 180px;
+}
+
+.form-button {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reg-input {
+    padding: 5px;
+    width: 355px;
+    border: 3px solid rgb(212, 210, 210);
+    border-radius: 30px;
+    color: green;
+}
+
+.capcha, img {
+    width: 150px;
+}
+/* --------------------------Правая таблица----------------------------- */
+
+
+/* --------------------------Левая таблица----------------------------- */
+h1 {
+    margin-left: 15px;
+}
+
+.form-input {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.form-label-first, .input-text-first {
+    display: inline-block;
+    vertical-align: middle;
+}
+.test {
+    width: 40%;
+}
+.form-label-first {
+    padding-left: 20px;
+    width: 60%;
+}
+.long-text {
+    padding-left: 20px;
+}
+.input-long-text {
+    margin-left: 35px;
+    width: 200px;
+    padding: 5px;
+    box-shadow: 3px -3px 10px 0px rgba(0,0,0,0.3);
+}
+.input-text-first {
+    width: 200px;
+    padding: 5px;
+    box-shadow: 3px -3px 10px 0px rgba(0,0,0,0.3);
+}
+
+h5 {
+    color: gray;
+    border-bottom: 3px solid rgb(202, 202, 202);
+}
+.select-list {
+    width: 165px;
+    padding: 5px;
+    box-shadow: 3px -3px 10px 0px rgba(0,0,0,0.3);
+    color: blue;
+    background: rgb(171,170,179);
+    background: linear-gradient(90deg, rgba(171,170,179,1) 0%, rgba(213,213,218,1) 100%, rgba(236,236,236,1) 100%);
+}
+.comment-field, .form-label-first {
+    display: inline-block;
+    vertical-align: top;
+}
+.comment-field {
+    box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.3);
+}
+.button-1 {
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+}
+.button-2 {
+    padding: 5px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+/* --------------------------Левая таблица----------------------------- */
