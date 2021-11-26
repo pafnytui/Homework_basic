@@ -68,7 +68,7 @@ body {
 
 .intro-img {
     margin-left: 15px;
-    animation: img-scale 3s infinite linear 3s;
+    animation: img-scale 3s 2 linear 1s;
 }
 
 
