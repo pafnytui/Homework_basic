@@ -179,8 +179,68 @@
             margin-top: 0px;
         }
     }
+}
 
-    // .clients-container {
-    //     width: auto;
-    // }
+.second-page {
+    .navbar {
+        position: static;
+
+        &-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+        }
+    }
+
+    .navbar-top {
+
+        width: 60%;
+
+        a,p {
+            color: $gray;
+        }
+        .navbar-language {
+            .active {
+                color: white;
+            }
+        }
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: $blue;
+    }
+
+    .navbar-brand-more {
+        font-size: 38px;
+
+        &:before, &:after {
+            content: "";
+            background-image: url(../img/logo-slash.svg);
+            display: inline-block;
+            width: 21px;
+            height: 46px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+        }
+
+        &:after {
+            background-image: url(../img/logo-symbol.svg);
+            width: 41px;
+        }
+
+        @media (max-width: 1280px) {
+            font-size: 19px;
+
+            &:before, &:after {
+                height: 25px;
+            }
+
+            &:before {
+                width: 10px;
+            }
+
+            .navbar-brand, img {
+                width: 90%;
+            }
+        }
+    }
 }
